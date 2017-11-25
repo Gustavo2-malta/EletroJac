@@ -1,4 +1,4 @@
-window.onload = function(){
+/*window.onload = function(){
   if (window.innerWidth<710 || 
     ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))){
     var div = document.getElementById('mymenu');
@@ -63,4 +63,4 @@ window.onresize = function() {
         div2.style.display ='none';
       }
 }
- 
+ */

@@ -16,7 +16,11 @@ h3{
 }
 body{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	background: grey;
+	background: white;
+}
+ #map {
+        height: 400px;
+        width: 100%;
 }
 
 #mymenuda {
@@ -28,7 +32,7 @@ body{
 	height: 50px;
 	padding: 0px;
 	margin: 0px;
-	/*position: fixed;*/
+	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 9999; 
@@ -47,7 +51,10 @@ body{
 	float: left; /* posicionamento do menu */
 	padding: 0px;
 }
-
+#mymenu li img{
+	padding-top: 5px;
+	padding-right: 20px;
+}
 
 #mymenu li a {
 	color: #333333;
@@ -80,6 +87,12 @@ body{
 	padding-left: -40px;/*-40*/
 
 }
+
+section{
+	padding: 20px 10%;
+}
+
+
 #mymenu li ul li:hover{
 	background-color:#85b1f7;	
 }
@@ -168,12 +181,15 @@ body{
 #carouselExampleIndicators{
 	padding: 0px 17%;
 	width: 100%;
-	background: grey;
 }
 
 section{
 	padding-top: 40px;
-	background: grey;
+	background: white;
+}
+
+#logo{
+	width: 210px;
 }
 .map_container{
 	padding: 0px 14%;
